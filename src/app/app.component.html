@@ -1,0 +1,27 @@
+<p>Validation</p>
+
+<form #formValidation="ngForm">
+  <input
+    type="text"
+    class="form-control"
+    ngModel
+    #firstName="ngModel"
+    name="firstName"
+    required
+    minlength="10"
+    password-pattern-validator
+    special-caharacter-validator
+  />
+  <validator [control]="firstName"> </validator>
+
+  <input
+    type="email"
+    class="form-control"
+    ngModel
+    #email="ngModel"
+    name="email"
+    placeholder="email"
+    email-validator
+  />
+</form>
+<validator [control]="email"> </validator>

@@ -1,0 +1,27 @@
+.ul-en {
+  padding-left: 5px !important;
+  background-color: #fff;
+  border: 1px solid #a94442;
+}
+
+.ul-en > li {
+  margin-left: 0px;
+  list-style-type: none;
+  color: #a94442;
+  font-size: 12px;
+}
+
+/*----------------------------------------*/
+.ul-ar {
+  padding-right: 5px !important;
+  color: #a94442;
+  background-color: #fff;
+  border: 1px solid #a94442;
+}
+
+.ul-ar > li {
+  margin-right: 0px;
+  list-style-type: none;
+  color: #a94442;
+  font-size: 12px;
+}
