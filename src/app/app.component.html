@@ -22,6 +22,7 @@
     name="email"
     placeholder="email"
     email-validator
+    [ngClass]="!email.valid ? 'border border-danger' : ''"
   />
 </form>
-<validator [control]="email"> </validator>
+<!-- <validator [control]="email"> </validator> -->
